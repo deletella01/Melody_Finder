@@ -1,3 +1,4 @@
+remote_theme: pages-themes/minimal@v0.2.0
 # Melody_Finder
 ![logo-no-background_r](https://github.com/deletella01/Melody_Finder/assets/60831529/bf35d878-997e-46ed-89e1-ac6cb16ab897)
 
