@@ -214,18 +214,3 @@ a = [{'name':'Cry Me a River', 'year':2002}]
 recommender(a)
 
 
-
-
-
-pip install anvil-uplink
-
-import anvil.server
-
-anvil.server.connect("server_MWTSWGAQCZWG4KOSJGBAZZSU-WYXKS2VQDQOVBKMX")
-
-@anvil.server.callable
-def recommender(song):
-    rec_song = print(song)
-    #rec_song = recommend_songs(song, data)
-    return  rec_song
-
