@@ -23,9 +23,9 @@ from flask import Flask, request, render_template
 import warnings
 warnings.filterwarnings("ignore")
 
-data = pd.read_csv('~/rec_data/data.csv')
-genre_data = pd.read_csv('~/rec_data/data_by_genres.csv')
-year_data = pd.read_csv('~/rec_data/data_by_year.csv')
+data = pd.read_csv('~/Melody_finder1/Melody_Finder/dataset/data.csv')
+genre_data = pd.read_csv('~/Melody_finder1/Melody_Finder/dataset/data_by_genres.csv')
+year_data = pd.read_csv('~/Melody_finder1/Melody_Finder/dataset/data_by_year.csv')
 
 
 def get_decade(year):
